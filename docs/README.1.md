@@ -2,7 +2,7 @@
 
 Focus of this article are my experiences building an Azure IoT Edge solution with Python and targeting IoT Edge running on a Linux Host, both desktop x64 and arm32v7 (Raspberry Pi).
 
-This article should be read in conjunction with the [Azure IoT Edge documents and tutorials](https://docs.microsoft.com/en-us/azure/iot-edge/).
+This article should be read in conjunction with the [Azure IoT Edge documents and tutorials](https://docs.microsoft.com/en-us/azure/iot-edge/?WT.mc_id=iot-0000-dglover).
 
 ## Developer Productivity
 
@@ -103,7 +103,7 @@ Docker images accumulate fast and gobble up disk space. So run a regular job to 
 
 1. Python 4 and multi Threaded
 2. https://code.visualstudio.com/docs/python/debugging
-3. [Flask Apps](https://code.visualstudio.com/docs/python/debugging#_flask-debugging)
+3. [Flask Apps](https://code.visualstudio.com/docs/python/debugging#_flask-debugging/?WT.mc_id=iot-0000-dglover)
 4. Local into a container running in the context of Iot Edge
 
 ## Microsoft 1st Party Modules
