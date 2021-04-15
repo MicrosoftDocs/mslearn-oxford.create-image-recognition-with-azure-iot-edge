@@ -1,4 +1,5 @@
 
+|Title |Resources|
 |----|---|
 |Microsoft Learn Module| [Create a image recognition solution with Azure IoT Edge and Azure Cognitive Services](http://docs.microsoft.com/learn/?WT.mc_id=iot-0000-dglover)|
 |Platform| [Azure IoT Edge](https://docs.microsoft.com/azure/iot-edge/?WT.mc_id=iot-0000-dglover)|
