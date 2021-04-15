@@ -1,8 +1,6 @@
 
-
-|Author|[Dave Glover](https://developer.microsoft.com/advocates/dave-glover?WT.mc_id=iot-0000-dglover), Microsoft Cloud Developer Advocate |
 |----|---|
-|Solution| [Creating an image recognition solution with Azure IoT Edge and Azure Cognitive Services](https://github.com/MicrosoftDocs/mslearn-oxford.create-image-recognition-with-azure-iot-edges)|
+|Microsoft Learn Module| [Create a image recognition solution with Azure IoT Edge and Azure Cognitive Services](http://docs.microsoft.com/learn/?WT.mc_id=iot-0000-dglover)|
 |Platform| [Azure IoT Edge](https://docs.microsoft.com/azure/iot-edge/?WT.mc_id=iot-0000-dglover)|
 |Documentation | [Azure IoT Edge](https://docs.microsoft.com/azure/iot-edge/?WT.mc_id=iot-0000-dglover), [Azure Custom Vision](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/getting-started-build-a-classifier/?WT.mc_id=iot-0000-dglover), [Azure Speech Services](https://docs.microsoft.com/azure/cognitive-services/speech-service/overview/?WT.mc_id=iot-0000-dglover),  [Azure Functions on Edge](https://docs.microsoft.com/azure/iot-edge/tutorial-deploy-function/?WT.mc_id=iot-0000-dglover), [Azure Stream Analytics](https://docs.microsoft.com/azure/iot-edge/tutorial-deploy-stream-analytics/?WT.mc_id=iot-0000-dglover), [Azure Machine Learning Services](https://docs.microsoft.com/azure/iot-edge/tutorial-deploy-machine-learning/?WT.mc_id=iot-0000-dglover) |
 |Video Training|[Enable edge intelligence with Azure IoT Edge](https://channel9.msdn.com/events/Connect/2017/T253?WT.mc_id=iot-0000-dglover)|
