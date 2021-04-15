@@ -81,7 +81,7 @@ The main components for an IoT Edge solution are:-
 
 So, with that overview of Azure IoT Edge here were my considerations and constraints for the solution.
 
-1. The solution should scale from a Raspberry Pi (running Raspberry Pi OS Linux) on ARM32v7, to my Linux desktop development environment, to an industrial capable IoT Edge device such as those found in the [Certified IoT Edge Catalog](https://catalog.azureiotsolutions.com/).
+1. The solution should scale from a Raspberry Pi (running Raspberry Pi OS Linux) on ARM32v7, to my Linux desktop development environment, to an industrial capable IoT Edge device such as those found in the [Certified IoT Edge Catalog](https://devicecatalog.azure.com/?WT.mc_id=iot-0000-dglover).
 
 2. The solution needs camera input, I used a USB Webcam for image capture as it was supported across all target devices.
 
