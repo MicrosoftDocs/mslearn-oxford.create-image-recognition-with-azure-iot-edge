@@ -51,7 +51,8 @@ class HubManager(object):
     async def __init__(
             self
     ):
-        self.client = IoTHubModuleClient.create_from_connection_string("HostName=glovebox-iothub.azure-devices.net;DeviceId=rpi8gb;SharedAccessKey=jHsEt+KayurPjY3AghOYI5j7T3x15qQmN9flHojkF+4=")
+        # The client object is used to interact with your Azure IoT hub.
+        module_client = IoTHubModuleClient.create_from_edge_environment()
         await self.client.connect()
 
     def send_event_to_output(self, outputQueueName, event, send_context):
@@ -110,10 +111,8 @@ async def main():
 
 
         # The client object is used to interact with your Azure IoT hub.
-        # module_client = IoTHubModuleClient.create_from_edge_environment()
+        module_client = IoTHubModuleClient.create_from_edge_environment()
 
-        module_client = IoTHubModuleClient.create_from_connection_string("HostName=glovebox-iothub.azure-devices.net;DeviceId=rpi8gb;SharedAccessKey=jHsEt+KayurPjY3AghOYI5j7T3x15qQmN9flHojkF+4=")
-        
         module_client.connect()
 
     except ValueError as error:
